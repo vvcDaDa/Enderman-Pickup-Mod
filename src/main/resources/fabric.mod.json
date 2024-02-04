@@ -1,18 +1,18 @@
 {
 	"schemaVersion": 1,
-	"id": "villager-pickup",
+	"id": "enderman-pickup",
 	"version": "${version}",
-	"name": "Villager Pickup",
+	"name": "Enderman Pickup",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
-		"LivingLemming"
+		"LivingLemming&vvcDaDa"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/villager-pickup/icon.png",
+	"icon": "assets/enderman-pickup/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
@@ -20,7 +20,7 @@
 		]
 	},
 	"mixins": [
-		"villager-pickup.mixins.json"
+		"enderman-pickup.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.14.19",
